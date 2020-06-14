@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="css/sons-of-obsidian.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/preset.css" />
-    <link rel="stylesheet" type="text/css" href="css/jquery-comments.css" />
     <link rel="stylesheet" href="css/style.css">
     <!-- End Include All CSS -->
     <link rel="icon" type="image/x-icon" href="images/fvicon.png" />
@@ -104,6 +103,16 @@
                                     cutting-edge technology rather than cooperative communities. Collaboratively
                                     transform corporate alignments vis-a-vis
                                     2.0 systems. Interactively.
+
+                                <pre class="prettyprint">
+                                    <code>
+                                        def get_name(name):
+                                            return f"My Name is {name}"
+                                        
+                                        user_name = get_name("Sagor")
+                                        print(user_name)
+                                    </code>
+                                </pre>
                                 </p>
 
                                 <!-- Related post area -->
@@ -138,6 +147,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/prettify.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+        addEventListener('load', function (event) { PR.prettyPrint(); }, false);
+    </script>
 </body>
 
 </html>
