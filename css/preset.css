@@ -1,6 +1,6 @@
 /*
-  Template Name: mbr-shagor portfolio
-  Theme URL: http://shagor.me/protfolio
+  Template Name: mbr-sagor portfolio
+  Theme URL: http://sagor.me/protfolio
   Author: mbr-sagor
   Author URI: http://sagor.me
   Description: This theme only for my portoflio
@@ -37,6 +37,10 @@ a:hover{
 a:focus{
    outline: 0;
    text-decoration: none;
+}
+input, textarea:focus {
+   outline: 0;
+   box-shadow: none;
 }
 ul, ol{
    margin: 0;
